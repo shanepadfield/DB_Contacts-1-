@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mshehab.db_contacts.ContactsActivity"
+    android:padding="16dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/label_create_contact" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonCreate"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/buttonFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listView"
+        android:layout_alignParentEnd="true"
+        android:text="@string/label_filter" />
+
+    <EditText
+        android:id="@+id/editTextFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listView"
+        android:layout_toEndOf="@+id/buttonCreate"
+        android:layout_toStartOf="@+id/buttonFilter"
+        android:ems="10"
+        android:hint="@string/label_name"
+        android:inputType="textPersonName" />
+</RelativeLayout>

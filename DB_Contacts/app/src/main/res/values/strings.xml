@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DB Contacts</string>
+    <string name="label_username">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_password_confirm">Confirm Password</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_login">Login</string>
+    <string name="label_signup">Sign Up</string>
+    <string name="label_fname">First Name</string>
+    <string name="label_lname">Last Name</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_sis">SIS</string>
+    <string name="label_cs">CS</string>
+    <string name="label_bio">BIO</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_create_contact">New Contact</string>
+    <string name="label_dept">Department:</string>
+    <string name="label_filter">Filter</string>
+</resources>

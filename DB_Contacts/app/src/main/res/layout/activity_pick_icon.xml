@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.mshehab.firebasedemo.PickIconActivity">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/imageViewF1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/view2"
+        app:srcCompat="@drawable/avatar_f_1" />
+
+    <ImageView
+        android:id="@+id/imageViewF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/view2"
+        app:srcCompat="@drawable/avatar_f_2" />
+
+    <ImageView
+        android:id="@+id/imageViewF3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewF1"
+        android:layout_marginTop="26dp"
+        android:layout_toStartOf="@+id/view2"
+        app:srcCompat="@drawable/avatar_f_3" />
+
+    <ImageView
+        android:id="@+id/imageViewM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewF3"
+        android:layout_toEndOf="@+id/view2"
+        app:srcCompat="@drawable/avatar_m_1" />
+
+    <ImageView
+        android:id="@+id/imageViewM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewF3"
+        android:layout_marginTop="25dp"
+        android:layout_toStartOf="@+id/view2"
+        app:srcCompat="@drawable/avatar_m_2" />
+
+    <ImageView
+        android:id="@+id/imageViewM3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewM2"
+        android:layout_toEndOf="@+id/view2"
+        app:srcCompat="@drawable/avatar_m_3" />
+</RelativeLayout>
